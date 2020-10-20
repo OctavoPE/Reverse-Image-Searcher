@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Reverse Image Searcher",
+    "version": "1.0",
+  
+    "description": "Automatically search Google, Bing, and Yandex with the provided image",
+  
+    "icons": {
+      "64": "icons/icon-64.png"
+    },
+	
+    "background": {
+      "scripts": ["background.js"]
+    },
+    
+    "permissions": ["menus"]
+}
