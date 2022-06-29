@@ -10,6 +10,7 @@ browser.menus.onClicked.addListener(async function (info, tab){
   if(info.menuItemId == "findImg"){
     if (info.srcUrl){
       let imgUrl = info.srcUrl;
+      // prefixes for forming the URL
       let googlePrefix = "https://www.google.com/searchbyimage?image_url=";
       let yandexPrefix = "https://yandex.com/images/search?source=collection&&url=";
       let yandexSuffix = "&rpt=imageview";
